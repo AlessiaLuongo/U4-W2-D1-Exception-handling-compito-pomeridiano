@@ -28,7 +28,7 @@ public class Main {
             logger.info("GIOCO FINITO");
             scanner.close();
         }else{
-            System.out.println("Inserisci un numero da 0 a 9 per posizionare il nuovo numero");
+            System.out.println("Inserisci un numero da 1 a 5 per posizionare il nuovo numero");
             int secondoNumeroInserito = scanner.nextInt();
             esercizio1.inserisciNumeroInArray(primoNumeroInserito, secondoNumeroInserito);
             System.out.println(esercizio1);
